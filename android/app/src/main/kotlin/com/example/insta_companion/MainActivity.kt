@@ -1,4 +1,4 @@
-package com.example.insta_companion
+package com.book.finder
 
 import io.flutter.embedding.android.FlutterActivity
 

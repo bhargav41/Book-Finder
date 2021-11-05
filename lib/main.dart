@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:insta_companion/views/loginscreen.dart';
 
-import 'homepage.dart';
+import 'views/homepage.dart';
 
 void main() {
-  runApp(MaterialApp(initialRoute: '/', routes: {
-    '/': (context) => const Home(),
-  }));
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: LoginPage(),
+  ));
 }
